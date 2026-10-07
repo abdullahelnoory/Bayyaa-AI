@@ -75,7 +75,13 @@ Every chain uses a **Pydantic output parser** (`PydanticOutputParser`), so each 
 |── .streamlit/
     ├── config.toml            # light theme (committed)
     └── secrets.toml           # API_URL + API_KEY (NOT committed)
-└── .streamlit/
+|── data/
+    ├── catalog.csv
+    ├── faq.pdf
+    ├── faq.txt
+    ├── policies.pdf          
+    └── policies.txt  
+└── notebook/
     └── bayyaaai-project.ipynb     # RAG + chains + FastAPI backend (runs on Kaggle)
 ```
 
