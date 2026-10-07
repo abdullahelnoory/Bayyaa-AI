@@ -68,14 +68,15 @@ Every chain uses a **Pydantic output parser** (`PydanticOutputParser`), so each 
 
 ```
 .
-├── bayyaaai-project.ipynb     # RAG + chains + FastAPI backend (runs on Kaggle)
 ├── app.py                     # Streamlit frontend
 ├── requirements.txt           # frontend dependencies
 ├── README.md
 ├── .gitignore
-└── .streamlit/
+|── .streamlit/
     ├── config.toml            # light theme (committed)
     └── secrets.toml           # API_URL + API_KEY (NOT committed)
+└── .streamlit/
+    └── bayyaaai-project.ipynb     # RAG + chains + FastAPI backend (runs on Kaggle)
 ```
 
 ---
